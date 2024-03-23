@@ -1,4 +1,4 @@
-import { CreateNotificationWithPushesParams } from '@diia-inhouse/types'
+import { CreateNotificationWithPushesParams } from '@kant2002-diia-inhouse/types'
 
 export enum MessageTemplateCode {
     CriminalRecordCertificateApplicationDone = 'criminal-record-certificate-application-done',

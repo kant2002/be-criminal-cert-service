@@ -1,6 +1,6 @@
 import { Constructor, asClass } from 'awilix'
 
-import { DepsResolver } from '@diia-inhouse/diia-app'
+import { DepsResolver } from '@kant2002-diia-inhouse/diia-app'
 
 import CriminalRecordCertificateMockProvider from '@src/providers/criminalRecordCertificate/mock'
 import CriminalRecordCertificateSevdeirProvider from '@src/providers/criminalRecordCertificate/sevdeir'

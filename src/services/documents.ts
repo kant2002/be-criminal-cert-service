@@ -1,13 +1,13 @@
-import { GrpcClientFactory, clientCallOptions } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory, clientCallOptions } from '@kant2002-diia-inhouse/diia-app'
 
 import {
     DocumentsServiceClient,
     DocumentsServiceDefinition,
     GetIdentityDocumentResponse,
     GetInternalPassportWithRegistrationResponse,
-} from '@diia-inhouse/documents-service-client'
-import { ActionVersion, UserTokenData } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/documents-service-client'
+import { ActionVersion, UserTokenData } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { AppConfig } from '@interfaces/config'
 

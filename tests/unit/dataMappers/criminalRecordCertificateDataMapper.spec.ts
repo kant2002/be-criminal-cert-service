@@ -2,7 +2,7 @@ import { randomUUID } from 'crypto'
 
 import moment from 'moment'
 
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import {
     CriminalRecordCertificateApplicationLoadActionType,

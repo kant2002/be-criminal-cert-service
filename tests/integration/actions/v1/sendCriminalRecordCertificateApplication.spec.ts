@@ -2,11 +2,11 @@ import { randomInt, randomUUID } from 'crypto'
 
 import moment from 'moment'
 
-import { CryptoDocServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { BadRequestError, InternalServerError, NotFoundError, ServiceUnavailableError, ValidationError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { PublicServiceCode } from '@diia-inhouse/types'
+import { CryptoDocServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { BadRequestError, InternalServerError, NotFoundError, ServiceUnavailableError, ValidationError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificate,

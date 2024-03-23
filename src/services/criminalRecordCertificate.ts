@@ -2,11 +2,11 @@ import AdmZip from 'adm-zip'
 import moment from 'moment'
 import { FilterQuery } from 'mongoose'
 
-import { RatingCategory } from '@diia-inhouse/analytics'
-import { CryptoDocServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { EventBus, InternalEvent, Task } from '@diia-inhouse/diia-queue'
-import { ApiError, BadRequestError, ModelNotFoundError, ServiceUnavailableError, ValidationError } from '@diia-inhouse/errors'
-import { PublicServiceCatalogClient } from '@diia-inhouse/public-service-catalog-client'
+import { RatingCategory } from '@kant2002-diia-inhouse/analytics'
+import { CryptoDocServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { EventBus, InternalEvent, Task } from '@kant2002-diia-inhouse/diia-queue'
+import { ApiError, BadRequestError, ModelNotFoundError, ServiceUnavailableError, ValidationError } from '@kant2002-diia-inhouse/errors'
+import { PublicServiceCatalogClient } from '@kant2002-diia-inhouse/public-service-catalog-client'
 import {
     ActHeaders,
     AppUserActionHeaders,
@@ -23,8 +23,8 @@ import {
     PublicServiceSettings,
     RatingForm,
     UserTokenData,
-} from '@diia-inhouse/types'
-import { PublicServiceUtils, utils } from '@diia-inhouse/utils'
+} from '@kant2002-diia-inhouse/types'
+import { PublicServiceUtils, utils } from '@kant2002-diia-inhouse/utils'
 
 import {
     CheckCriminalRecordCertificateForPublicServiceResponse,

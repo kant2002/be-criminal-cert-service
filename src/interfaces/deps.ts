@@ -1,11 +1,11 @@
-import { GrpcService } from '@diia-inhouse/diia-app'
+import { GrpcService } from '@kant2002-diia-inhouse/diia-app'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { DatabaseService } from '@diia-inhouse/db'
-import { CryptoDocServiceClient, CryptoServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { QueueDeps } from '@diia-inhouse/diia-queue'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
-import { PublicServiceCatalogClient } from '@diia-inhouse/public-service-catalog-client'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { DatabaseService } from '@kant2002-diia-inhouse/db'
+import { CryptoDocServiceClient, CryptoServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { QueueDeps } from '@kant2002-diia-inhouse/diia-queue'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
+import { PublicServiceCatalogClient } from '@kant2002-diia-inhouse/public-service-catalog-client'
 
 import { AppConfig } from '@src/interfaces/config'
 

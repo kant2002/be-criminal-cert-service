@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import { GrpcClientFactory } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory } from '@kant2002-diia-inhouse/diia-app'
 
-import { mockInstance } from '@diia-inhouse/test'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import AddressService from '@services/address'
 

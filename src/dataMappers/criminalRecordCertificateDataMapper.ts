@@ -1,7 +1,7 @@
 import moment from 'moment'
 
-import { AttentionMessage, Gender } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { AttentionMessage, Gender } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import {
     CriminalRecordCertificateApplicationConfirmationApplication,

@@ -1,14 +1,14 @@
-import { GrpcClientFactory, clientCallOptions } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory, clientCallOptions } from '@kant2002-diia-inhouse/diia-app'
 
-import { RateServiceEventPayload } from '@diia-inhouse/analytics'
+import { RateServiceEventPayload } from '@kant2002-diia-inhouse/analytics'
 import {
     AnalyticsServiceClient,
     AnalyticsServiceDefinition,
     GetRatingFormRequest,
     GetRatingFormResponse,
-} from '@diia-inhouse/analytics-service-client'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { ActionVersion, Logger } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/analytics-service-client'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ActionVersion, Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 

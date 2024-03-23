@@ -1,11 +1,11 @@
-import { GrpcClientFactory } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory } from '@kant2002-diia-inhouse/diia-app'
 
-import { RatingCategory } from '@diia-inhouse/analytics'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { ServiceUnavailableError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { PublicServiceKebabCaseCode } from '@diia-inhouse/types'
+import { RatingCategory } from '@kant2002-diia-inhouse/analytics'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { PublicServiceKebabCaseCode } from '@kant2002-diia-inhouse/types'
 
 import AnalyticsService from '@services/analytics'
 

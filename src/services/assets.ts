@@ -2,7 +2,7 @@ import { existsSync } from 'fs'
 import { readFile } from 'fs/promises'
 import { resolve } from 'path'
 
-import { Logger, OnInit } from '@diia-inhouse/types'
+import { Logger, OnInit } from '@kant2002-diia-inhouse/types'
 
 import { Icon } from '@interfaces/services/assets'
 

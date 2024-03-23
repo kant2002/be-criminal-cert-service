@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { PublicServiceCode } from '@diia-inhouse/types'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificate,

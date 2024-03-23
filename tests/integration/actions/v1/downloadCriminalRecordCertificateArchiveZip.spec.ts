@@ -1,9 +1,9 @@
 import { randomUUID } from 'crypto'
 
-import { CryptoDocServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { ModelNotFoundError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
+import { CryptoDocServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 import { CriminalRecordCertificateStatus } from '@src/generated'
 

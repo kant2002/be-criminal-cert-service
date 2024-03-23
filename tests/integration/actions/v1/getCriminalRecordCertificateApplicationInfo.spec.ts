@@ -1,8 +1,8 @@
 import moment from 'moment'
 
-import { PublicServiceCatalogClient } from '@diia-inhouse/public-service-catalog-client'
-import TestKit from '@diia-inhouse/test'
-import { DocStatus, PublicServiceCode } from '@diia-inhouse/types'
+import { PublicServiceCatalogClient } from '@kant2002-diia-inhouse/public-service-catalog-client'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { DocStatus, PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificateApplicationScreen,

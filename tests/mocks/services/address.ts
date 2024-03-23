@@ -1,5 +1,5 @@
-import { GetPublicServiceAddressResponse } from '@diia-inhouse/address-service-client'
-import { AddressCategory } from '@diia-inhouse/types'
+import { GetPublicServiceAddressResponse } from '@kant2002-diia-inhouse/address-service-client'
+import { AddressCategory } from '@kant2002-diia-inhouse/types'
 
 export type AddressVariant = 'regionalCenter' | 'capital' | 'urbanVillage' | 'foreign' | 'withoutCity' | 'full'
 

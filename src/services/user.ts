@@ -1,7 +1,7 @@
-import { GrpcClientFactory, clientCallOptions } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory, clientCallOptions } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion } from '@diia-inhouse/types'
-import { DocumentFilter, GetUserDocumentsResponse, UserServiceClient, UserServiceDefinition } from '@diia-inhouse/user-service-client'
+import { ActionVersion } from '@kant2002-diia-inhouse/types'
+import { DocumentFilter, GetUserDocumentsResponse, UserServiceClient, UserServiceDefinition } from '@kant2002-diia-inhouse/user-service-client'
 
 import { AppConfig } from '@interfaces/config'
 

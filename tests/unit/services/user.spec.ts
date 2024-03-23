@@ -1,14 +1,14 @@
 const clientCallOptions = jest.fn()
 
-jest.mock('@diia-inhouse/diia-app', () => ({
-    ...jest.requireActual('@diia-inhouse/diia-app'),
+jest.mock('@kant2002-diia-inhouse/diia-app', () => ({
+    ...jest.requireActual('@kant2002-diia-inhouse/diia-app'),
     clientCallOptions,
 }))
 
-import { GrpcClientFactory } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory } from '@kant2002-diia-inhouse/diia-app'
 
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion } from '@diia-inhouse/types'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

@@ -1,6 +1,6 @@
-import { GrpcClientFactory } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory } from '@kant2002-diia-inhouse/diia-app'
 
-import { AddressServiceClient, AddressServiceDefinition, GetPublicServiceAddressResponse } from '@diia-inhouse/address-service-client'
+import { AddressServiceClient, AddressServiceDefinition, GetPublicServiceAddressResponse } from '@kant2002-diia-inhouse/address-service-client'
 
 import { AppConfig } from '@interfaces/config'
 

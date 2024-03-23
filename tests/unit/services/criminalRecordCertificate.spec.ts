@@ -26,9 +26,9 @@ class AdmZipMock {
 }
 
 jest.mock('adm-zip', () => AdmZipMock)
-const actualUtils = jest.requireActual('@diia-inhouse/utils')
+const actualUtils = jest.requireActual('@kant2002-diia-inhouse/utils')
 
-jest.mock('@diia-inhouse/utils', () => ({
+jest.mock('@kant2002-diia-inhouse/utils', () => ({
     ...actualUtils,
     PublicServiceUtils: {
         isAvailable: utilsStubs.isAvailable,
@@ -46,12 +46,12 @@ jest.mock('@diia-inhouse/utils', () => ({
 import moment from 'moment'
 import { Query, UpdateWriteOpResult } from 'mongoose'
 
-import { RatingCategory } from '@diia-inhouse/analytics'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EventBus, InternalEvent, Task } from '@diia-inhouse/diia-queue'
-import { GetInternalPassportWithRegistrationResponse, PassportByInnDocumentType } from '@diia-inhouse/documents-service-client'
-import { BadRequestError, ModelNotFoundError, NotFoundError, ServiceUnavailableError, ValidationError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import { RatingCategory } from '@kant2002-diia-inhouse/analytics'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EventBus, InternalEvent, Task } from '@kant2002-diia-inhouse/diia-queue'
+import { GetInternalPassportWithRegistrationResponse, PassportByInnDocumentType } from '@kant2002-diia-inhouse/documents-service-client'
+import { BadRequestError, ModelNotFoundError, NotFoundError, ServiceUnavailableError, ValidationError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 import {
     DocStatus,
     DocumentType,
@@ -61,8 +61,8 @@ import {
     PublicServiceKebabCaseCode,
     PublicServiceStatus,
     SessionType,
-} from '@diia-inhouse/types'
-import { UserDocument } from '@diia-inhouse/user-service-client'
+} from '@kant2002-diia-inhouse/types'
+import { UserDocument } from '@kant2002-diia-inhouse/user-service-client'
 
 import {
     CriminalRecordCertificate,

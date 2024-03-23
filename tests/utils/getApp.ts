@@ -1,4 +1,4 @@
-import { Application, ServiceContext, ServiceOperator } from '@diia-inhouse/diia-app'
+import { Application, ServiceContext, ServiceOperator } from '@kant2002-diia-inhouse/diia-app'
 
 import config from '@src/config'
 

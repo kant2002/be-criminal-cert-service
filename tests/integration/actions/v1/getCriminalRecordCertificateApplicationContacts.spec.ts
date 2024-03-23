@@ -1,5 +1,5 @@
-import TestKit from '@diia-inhouse/test'
-import { ContactsResponse } from '@diia-inhouse/types'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { ContactsResponse } from '@kant2002-diia-inhouse/types'
 
 import GetCriminalRecordCertificateApplicationContactsAction from '@actions/v1/getCriminalRecordCertificateApplicationContacts'
 

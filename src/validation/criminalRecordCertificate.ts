@@ -1,5 +1,5 @@
-import { PublicServiceCode } from '@diia-inhouse/types'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import { CriminalRecordCertificateType, SendCriminalRecordCertificateApplicationRequest } from '@src/generated'
 

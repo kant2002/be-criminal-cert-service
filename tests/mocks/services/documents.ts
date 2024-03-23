@@ -5,9 +5,9 @@ import {
     GetIdentityDocumentResponse,
     GetInternalPassportWithRegistrationResponse,
     PassportByInnDocumentType,
-} from '@diia-inhouse/documents-service-client'
-import TestKit from '@diia-inhouse/test'
-import { IdentityDocumentType, PassportGenderEN } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/documents-service-client'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { IdentityDocumentType, PassportGenderEN } from '@kant2002-diia-inhouse/types'
 
 export function getPassportWithRegistration(
     data: PartialDeep<GetInternalPassportWithRegistrationResponse> = {},

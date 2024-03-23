@@ -1,6 +1,6 @@
-import { ApiError, InternalServerError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { GrpcStatusCode, IdentityDocumentType } from '@diia-inhouse/types'
+import { ApiError, InternalServerError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { GrpcStatusCode, IdentityDocumentType } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificateApplicationRequester,

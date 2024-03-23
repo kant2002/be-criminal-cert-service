@@ -1,5 +1,5 @@
-import TestKit from '@diia-inhouse/test'
-import { AppUserActionHeaders, PublicServiceCode, UserSession } from '@diia-inhouse/types'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { AppUserActionHeaders, PublicServiceCode, UserSession } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificate,

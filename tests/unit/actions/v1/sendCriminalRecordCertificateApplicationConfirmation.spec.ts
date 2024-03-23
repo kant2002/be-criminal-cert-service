@@ -2,7 +2,7 @@ const getSendCriminalRecordCertificateApplicationDataValidationSchema = jest.fn(
 
 jest.mock('@src/validation/criminalRecordCertificate', () => ({ getSendCriminalRecordCertificateApplicationDataValidationSchema }))
 
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import { SendCriminalRecordCertificateApplicationConfirmationResponse } from '@src/generated/criminal-cert-service'
 

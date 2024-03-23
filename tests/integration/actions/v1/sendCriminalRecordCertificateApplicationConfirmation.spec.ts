@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import { InternalServerError, NotFoundError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import TestKit from '@diia-inhouse/test'
-import { PublicServiceCode } from '@diia-inhouse/types'
+import { InternalServerError, NotFoundError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificateType,

@@ -1,13 +1,13 @@
 import { asClass, asFunction, asValue } from 'awilix'
 
-import { DepsFactoryFn, DepsResolver, GrpcClientFactory, GrpcService } from '@diia-inhouse/diia-app'
+import { DepsFactoryFn, DepsResolver, GrpcClientFactory, GrpcService } from '@kant2002-diia-inhouse/diia-app'
 
-import { AnalyticsService } from '@diia-inhouse/analytics'
-import { DatabaseService, DbType } from '@diia-inhouse/db'
-import { CryptoDocServiceDefinition, CryptoServiceDefinition } from '@diia-inhouse/diia-crypto-client'
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
-import { PublicServiceCatalogDefinition } from '@diia-inhouse/public-service-catalog-client'
+import { AnalyticsService } from '@kant2002-diia-inhouse/analytics'
+import { DatabaseService, DbType } from '@kant2002-diia-inhouse/db'
+import { CryptoDocServiceDefinition, CryptoServiceDefinition } from '@kant2002-diia-inhouse/diia-crypto-client'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
+import { PublicServiceCatalogDefinition } from '@kant2002-diia-inhouse/public-service-catalog-client'
 
 import { getProvidersDeps } from '@src/providers/index'
 

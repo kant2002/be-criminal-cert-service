@@ -1,7 +1,7 @@
-import { GrpcClientFactory } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory } from '@kant2002-diia-inhouse/diia-app'
 
-import { NotificationServiceClient, NotificationServiceDefinition } from '@diia-inhouse/notification-service-client'
-import { Logger } from '@diia-inhouse/types'
+import { NotificationServiceClient, NotificationServiceDefinition } from '@kant2002-diia-inhouse/notification-service-client'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/config'
 import { CreateNotificationWithPushesByMobileUidParams } from '@interfaces/services/notification'

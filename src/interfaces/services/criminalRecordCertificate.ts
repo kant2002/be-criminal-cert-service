@@ -1,4 +1,4 @@
-import { AttentionMessage, Gender } from '@diia-inhouse/types'
+import { AttentionMessage, Gender } from '@kant2002-diia-inhouse/types'
 
 import { CriminalRecordCertificateStatus, CriminalRecordCertificateType } from '@src/generated'
 

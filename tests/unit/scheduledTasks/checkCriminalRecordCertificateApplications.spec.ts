@@ -1,4 +1,4 @@
-import { mockInstance } from '@diia-inhouse/test'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import CheckCriminalRecordCertificateApplicationsTask from '@src/scheduledTasks/checkCriminalRecordCertificateApplications'
 

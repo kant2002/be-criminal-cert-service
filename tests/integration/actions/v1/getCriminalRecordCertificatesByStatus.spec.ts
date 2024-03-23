@@ -1,7 +1,7 @@
-import { CryptoDocServiceClient } from '@diia-inhouse/diia-crypto-client'
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { PublicServiceCatalogClient } from '@diia-inhouse/public-service-catalog-client'
-import TestKit from '@diia-inhouse/test'
+import { CryptoDocServiceClient } from '@kant2002-diia-inhouse/diia-crypto-client'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { PublicServiceCatalogClient } from '@kant2002-diia-inhouse/public-service-catalog-client'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 import {
     CriminalRecordCertificateItem,

@@ -1,9 +1,9 @@
 import { randomInt, randomUUID } from 'crypto'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { ExternalCommunicator, ExternalEvent } from '@diia-inhouse/diia-queue'
-import { InternalServerError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { ExternalCommunicator, ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { InternalServerError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import { CriminalRecordCertificateStatus } from '@src/generated/criminal-cert-service'
 import SevdeirCriminalRecordCertificateService from '@src/providers/criminalRecordCertificate/sevdeir'

@@ -13,8 +13,8 @@ jest.mock('fs/promises', () => ({
     readFile,
 }))
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { mockInstance } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
 
 import AssetsService from '@services/assets'
 

@@ -1,6 +1,6 @@
-import { MetricsConfig } from '@diia-inhouse/diia-app'
+import { MetricsConfig } from '@kant2002-diia-inhouse/diia-app'
 
-import { AppDbConfig, ReplicaSetNodeConfig } from '@diia-inhouse/db'
+import { AppDbConfig, ReplicaSetNodeConfig } from '@kant2002-diia-inhouse/db'
 import {
     InternalQueueConfig,
     InternalQueueName,
@@ -9,11 +9,11 @@ import {
     QueueConnectionConfig,
     QueueConnectionType,
     ScheduledTaskQueueName,
-} from '@diia-inhouse/diia-queue'
-import { EnvService } from '@diia-inhouse/env'
-import { HealthCheckConfig } from '@diia-inhouse/healthcheck'
-import { RedisConfig } from '@diia-inhouse/redis'
-import { DurationMs, GenericObject } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/diia-queue'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { HealthCheckConfig } from '@kant2002-diia-inhouse/healthcheck'
+import { RedisConfig } from '@kant2002-diia-inhouse/redis'
+import { DurationMs, GenericObject } from '@kant2002-diia-inhouse/types'
 
 export default async (envService: EnvService, serviceName: string): Promise<GenericObject> => ({
     app: {

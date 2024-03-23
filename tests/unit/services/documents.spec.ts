@@ -3,22 +3,22 @@ const utilsStubs = {
 }
 const clientCallOptions = jest.fn()
 
-jest.mock('@diia-inhouse/utils', () => ({
-    ...jest.requireActual('@diia-inhouse/utils'),
+jest.mock('@kant2002-diia-inhouse/utils', () => ({
+    ...jest.requireActual('@kant2002-diia-inhouse/utils'),
     utils: utilsStubs,
 }))
-jest.mock('@diia-inhouse/diia-app', () => ({
-    ...jest.requireActual('@diia-inhouse/diia-app'),
+jest.mock('@kant2002-diia-inhouse/diia-app', () => ({
+    ...jest.requireActual('@kant2002-diia-inhouse/diia-app'),
     clientCallOptions,
 }))
 
 import moment from 'moment'
 
-import { GrpcClientFactory } from '@diia-inhouse/diia-app'
+import { GrpcClientFactory } from '@kant2002-diia-inhouse/diia-app'
 
-import { GetInternalPassportWithRegistrationResponse, PassportByInnDocumentType } from '@diia-inhouse/documents-service-client'
-import TestKit, { mockInstance } from '@diia-inhouse/test'
-import { ActionVersion, IdentityDocumentType } from '@diia-inhouse/types'
+import { GetInternalPassportWithRegistrationResponse, PassportByInnDocumentType } from '@kant2002-diia-inhouse/documents-service-client'
+import TestKit, { mockInstance } from '@kant2002-diia-inhouse/test'
+import { ActionVersion, IdentityDocumentType } from '@kant2002-diia-inhouse/types'
 
 import DocumentsService from '@services/documents'
 

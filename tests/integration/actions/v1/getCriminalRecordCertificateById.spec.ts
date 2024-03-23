@@ -2,11 +2,11 @@ import { randomUUID } from 'crypto'
 
 import moment from 'moment'
 
-import { getRatingFormMock } from '@diia-inhouse/analytics'
-import { ModelNotFoundError } from '@diia-inhouse/errors'
-import { PublicServiceCatalogClient } from '@diia-inhouse/public-service-catalog-client'
-import TestKit from '@diia-inhouse/test'
-import { RatingForm } from '@diia-inhouse/types'
+import { getRatingFormMock } from '@kant2002-diia-inhouse/analytics'
+import { ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { PublicServiceCatalogClient } from '@kant2002-diia-inhouse/public-service-catalog-client'
+import TestKit from '@kant2002-diia-inhouse/test'
+import { RatingForm } from '@kant2002-diia-inhouse/types'
 
 import {
     CriminalRecordCertificateApplicationLoadActionType,

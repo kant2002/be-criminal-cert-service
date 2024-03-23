@@ -1,4 +1,4 @@
-import { PublicServiceCode } from '@diia-inhouse/types'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import { CriminalRecordCertificateType } from '@src/generated/criminal-cert-service'
 import { getSendCriminalRecordCertificateApplicationDataValidationSchema } from '@src/validation/criminalRecordCertificate'
